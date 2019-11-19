@@ -6,7 +6,7 @@
 /*   By: bpole <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/27 14:29:45 by bpole             #+#    #+#             */
-/*   Updated: 2019/11/19 12:58:01 by bpole            ###   ########.fr       */
+/*   Updated: 2019/11/19 20:54:53 by bpole            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int		main(void)
     printf("%s\n", line);
 	free(line);
 
-    fd3 = open("text3.txt", O_RDONLY);
+    fd3 = open("tv.txt", O_RDONLY);
     while (get_next_line(fd3, &line) > 0) {
         printf("%s\n", line);
 		free(line);

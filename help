@@ -1,0 +1,2 @@
+./read.out | ./check_dif > t
+diff tv.txt t
